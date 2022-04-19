@@ -1,0 +1,23 @@
+.one:hover {
+  color: brown;
+}
+
+.two:hover {
+  color: blueviolet;
+}
+
+.three:hover {
+  color: blue;
+}
+
+.four:hover {
+  color: aqua;
+}
+
+.five:hover {
+  color: gold;
+}
+
+#six {
+  color: green;
+}

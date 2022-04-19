@@ -1,0 +1,29 @@
+.one,
+.two,
+.three,
+.four {
+  width: 100px;
+  height: 100px;
+}
+
+.table {
+  display: flex;
+  margin-left: 43%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  /* margin: auto; */
+  /* display: inline; */
+  /* border: 2px solid black; */
+}
+
+h1 {
+  margin-left: 45%;
+}
+
+.box {
+  border: 2px solid black;
+  width: 400px;
+  height: 300px;
+  margin: 10% 0 0 30%;
+}

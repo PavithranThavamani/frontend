@@ -1,0 +1,42 @@
+.body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.green {
+  width: 200px;
+  height: 100px;
+}
+
+.line2,
+.line3 {
+  display: flex;
+}
+
+/* .box,
+.image {
+  padding: 3px;
+} */
+
+.box,
+.image {
+  margin: 3px;
+}
+
+.green {
+  margin-bottom: 3px;
+  width: 23.7%;
+  margin-left: 4px;
+}
+
+.box,
+.green,
+.image {
+  border: 2px solid black;
+}
