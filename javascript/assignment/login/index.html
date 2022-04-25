@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <form name="myForm" method="post">
+      <label for="name">Name : </label>
+      <input type="text" name="name" id="name" /><br /><br />
+      <label for="email">E-mail : </label>
+      <input type="email" name="email" id="email" /><br /><br />
+      <label for="phoneNumber">Phone Number : </label>
+      <input type="number" name="number" id="number" /><br /><br />
+      <label for="password">Password : </label>
+      <input type="password" name="password" id="password" /><br /><br />
+      <input type="button" value="Submit" onclick="submitHandler()" />
+    </form>
+    <script>
+      function submitHandler() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var number = document.getElementById("number").value;
+        var password = document.getElementById("password").value;
+
+        console.log("Name : " + name);
+        console.log("E-mail : " + email);
+        // console.log(`E-mail : ${email}`);
+        console.log("Phone Number : " + number);
+        console.log("Password : " + password);
+
+        // if (
+        //   name == null ||
+        //   name == "" ||
+        //   email == null ||
+        //   email == "" ||
+        //   number == null ||
+        //   number == "" ||
+        //   password == null ||
+        //   password == ""
+        // ) {
+        //   alert("All fields must be filled");
+        // } else {
+        //   //   window.location = "submit.html";
+        //   console.log("Name : " + name);
+        //   console.log("E-mail : " + email);
+        //   console.log("Phone Number : " + number);
+        //   console.log("Password : " + password);
+        // }
+
+        // alert("Login successfully");
+        // window.location = "submit.html";
+        // console.log("Name : " + name);
+        // console.log("E-mail : " + email);
+        // console.log("Phone Number : " + number);
+        // console.log("Password : " + password);
+      }
+    </script>
+  </body>
+</html>
