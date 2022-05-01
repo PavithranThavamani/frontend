@@ -1,0 +1,7 @@
+.contact {
+  color: green;
+}
+
+.contact h1:hover {
+  color: orange;
+}
