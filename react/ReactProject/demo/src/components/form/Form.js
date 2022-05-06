@@ -12,7 +12,7 @@ function form() {
         <h1>Login</h1>
         <label>Name</label>
         <br></br>
-        <input type="text" />
+        <input type="text" required />
         <br></br>
         {/* <label>Gender</label>
         <br></br>
@@ -39,7 +39,7 @@ function form() {
           value="login"
           className="login-btn"
           onClick={() => {
-            loginAlert();
+            // loginAlert();
           }}
         />
       </form>

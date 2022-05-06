@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ComponentB from "./ComponentB";
 
-import { Uprovider } from "../context/Context";
+import { UserProvider } from "../context/Context";
 import ComponentD from "./ComponentD";
 
 function ComponentA() {
@@ -10,9 +10,9 @@ function ComponentA() {
     <div>
       <h1>Passing from A </h1>
       <h1>{userName} </h1>
-      <Uprovider userName={userName}>
+      <UserProvider userName={userName}>
         <ComponentD userName={userName} />
-      </Uprovider>
+      </UserProvider>
       <button onClick={() => setuserName("mukilan")}>change</button>
     </div>
   );

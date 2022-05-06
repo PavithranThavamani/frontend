@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Delete from "./components/axios/Delete";
+import FetchUsingAxios from "./components/axios/FetchUsingAxios";
+import Put from "./components/axios/Put";
+import FetchData from "./components/fetch/FetchData";
+import Form from "./components/form/Form";
+import UseEffectHook from "./components/hooks/useEffect/UseEffectHook";
+import UseRefHook from "./components/hooks/UseRefHook";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseEffectHook /> */}
+      {/* <UseRefHook /> */}
+      {/* <FetchData /> */}
+      {/* <FetchUsingAxios /> */}
+      {/* <Form /> */}
+      {/* <Put /> */}
+      <Delete />
     </div>
   );
 }

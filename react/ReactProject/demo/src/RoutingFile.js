@@ -21,7 +21,7 @@ function RoutingFile() {
         </div>
       </div>
 
-      <Route exact path="/" component={About} />
+      <Route path="/" component={About} exact />
       <Route path="/contact" component={Contact} />
       <Route path="/home" component={Home} />
     </BrowserRouter>
